@@ -11,7 +11,7 @@ class CustomBottom extends StatelessWidget {
       height: 55,
       decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(16),
-          color: KPrimaryColor
+          color: kPrimaryColor
       ),
       child: Center(child: Text("Add",style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,color: Colors.black87),)),
     );

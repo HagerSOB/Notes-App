@@ -9,12 +9,12 @@ final int maxLine;
   Widget build(BuildContext context) {
     return TextField(
 
-      cursorColor:KPrimaryColor,
+      cursorColor:kPrimaryColor,
 maxLines: maxLine,
       decoration: InputDecoration(
         hintText: hint,
           border: bulidBorder(),
-              focusedBorder: bulidBorder( KPrimaryColor),
+              focusedBorder: bulidBorder( kPrimaryColor),
       ),
     );
   }

@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:notes_app2/views/Edit_View_Body.dart';
 import 'package:notes_app2/views/widgets/Edit_Note_View.dart';
 import 'package:notes_app2/views/widgets/note_item.dart';
-import 'package:notes_app2/views/widgets/notes_view_body.dart';
 
 class NotsListView extends StatelessWidget {
   const NotsListView({super.key});
