@@ -6,13 +6,15 @@ import 'package:notes_app2/constants.dart';
 
 
 class AddNoteCubit extends Cubit<NotesState> {
-  AddNoteCubit(super.Noteinitial);
+  AddNoteCubit() : super(Noteinitial());
  addNote(NoteModle note) async{
    emit(NoteLoading());
     try{
       var notesBox=Hive.box<NoteModle>(kNotesBox);
-      await notesBox.add(note);
       emit(NoteSuccsses());
+
+      await notesBox.add(note);
+
 
     }catch (e){
       emit(NoteFailure(e.toString()));
