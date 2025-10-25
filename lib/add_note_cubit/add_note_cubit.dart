@@ -1,13 +1,12 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:notes_app2/Models/Note_modle.dart';
 import 'package:notes_app2/add_note_cubit/notes_state.dart';
 
 
-class NotesCubit extends Cubit<NotesState> {
-   NotesCubit(super.Noteinitial);
+class AddNoteCubit extends Cubit<NotesState> {
+  AddNoteCubit(super.Noteinitial);
+ addNote(NoteModle note){}
 
-  @override
-  Widget build(BuildContext context) {
-    return const Placeholder();
   }
-}
+
+
